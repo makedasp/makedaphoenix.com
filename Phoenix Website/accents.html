@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+    <title>Photography</title>
+         <link rel = "stylesheet" href="phoenixsite.css">
+     <link rel="stylesheet" href="photos.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed|Sedgwick+Ave" rel="stylesheet">
+     <style>
+         body{
+        
+         }
+     </style>
+    </head>
+    <body>
+         <header>
+        <div id="photobar">
+        <h1>Makeda Phoenix
+              <div class="container" onclick="toggleIcon(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+            </div>
+            </h1>
+            </div>
+        </header>
+        <div id="navbar">
+             <ul>
+                <!--<li><a href = "projects.html">Projects</a></li>-->
+                <li><a href = "index.html#resume">Resume</a></li>
+                <li><a href = "index.html#icons">Links</a></li>
+                <li><a href = "projects.html">Projects</a> </li>
+                <!--<li><a href = "contact.html">Contact</a></li>-->
+            </ul>
+        </div>
+        <main>
+            <div class="pics">
+                <img src="Photography/Accent/bigFace.JPG" alt="Big Stone Face">
+                <img src="Photography/Accent/caboose.JPG" alt="Caboose">
+                <img src="Photography/Accent/fallsign.JPG" alt="Waterfall Sign">
+                <img src="Photography/Accent/icecream.jpg" alt="Ice Cream Sign">
+            </div>
+        </main>
+    </body>
+    
+    <script>
+            function toggleIcon(x) {
+                x.classList.toggle("change");
+                var m = document.getElementById('navbar');
+            }
+           $(document).ready(function(){
+               $(".container").click(function(){
+                   $("#navbar").toggle();
+               });
+           });
+        </script>
+</html>
