@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Projects</title>
+         <link rel = "stylesheet" href="phoenixsite.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Saira+Extra+Condensed|Sedgwick+Ave" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Raleway|Ubuntu" rel="stylesheet">
+    </head>
+    <body>
+         <header>
+        <div id="bar">
+        <h1>Makeda Phoenix
+              <div class="container" onclick="toggleIcon(this)">
+                  <div class="bar1"></div>
+                  <div class="bar2"></div>
+                  <div class="bar3"></div>
+            </div>
+            </h1>
+            </div>
+        </header>
+        
+        <div id="navbar">
+             <ul>
+                <!--<li><a href = "projects.html">Projects</a></li>-->
+                <li><a href = "index.html#resume">Resume</a></li>
+                <li><a href = "index.html#icons">Links</a></li>
+                <li><a href = "projects.html">Projects</a> </li>
+                <!--<li><a href = "contact.html">Contact</a></li>-->
+            </ul>
+        </div>
+        <main>
+            <h2 class="title">Projects</h2>
+            <h2>Photography</h2>
+            <div class="photopreview">
+                <img src="Photography/Main/DSC02254.JPG" alt="" width="300px">
+                <img src="Photography/Main/DSC02695.JPG" alt="" width="300px">
+                <p id = "more"><a href="photography.html">See more>></a></p>
+            </div>
+            <h2>Miscellaneous</h2>
+            <div class="snapchat">
+                <img src="Snapchat/cookout_1.JPG" alt="Cousin's Cookout" width="200px">
+                <img src="Snapchat/cookout_2.JPG" alt="Cousin's Cookout" width="200px">
+                <img src="Snapchat/cookout_3.JPG" alt="Cousin's Cookout" width="200px">
+            </div>
+        </main>
+    </body>
+  <script>
+            function toggleIcon(x) {
+                x.classList.toggle("change");
+                var m = document.getElementById('navbar');
+            }
+           $(document).ready(function(){
+               $(".container").click(function(){
+                   $("#navbar").toggle();
+               });
+           });
+        </script>
+    
+
+</html>

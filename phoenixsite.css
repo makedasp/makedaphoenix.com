@@ -1,0 +1,275 @@
+html{
+    
+}
+
+body{
+    display: block;
+    background-color: white;
+    margin: 0 auto;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 auto;
+    padding: 20px;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+    color: #4B9CD3;
+    font-size: 50px;
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 100px;
+}
+h3{
+    font-family: 'Indie Flower', cursive;
+    color: #4B9CD3;
+    margin: 0;
+    padding-left: 0px;
+    font-size: 20px;
+    border-bottom: 1px solid #4B9CD3;
+    margin-right: 50px;
+}
+
+h4{
+    font-family: 'Indie Flower', cursive;
+    color: #4B9CD3;
+    margin: 0;
+    padding-left: 0px;
+    font-size: 35px;
+    border-bottom: 1px solid #4B9CD3;
+    margin-right: 50px;
+}
+
+header{
+    +-color: #4B9CD3;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+#bar{
+    position: fixed;
+    background-color: #4B9CD3;
+    display: block;
+    width: 100%;
+    height: 100px;
+}
+
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    right: 100px;
+    padding: 10px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#navbar{
+    overflow: hidden;
+    font-family: 'Indie Flower', cursive;
+    display: none;
+    position: fixed;
+    right: 50px;
+}
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+li{
+    float: left;
+    border-top: 3px solid #4B9CD3;
+    border-bottom: 3px solid #4B9CD3;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    padding: 16px;
+}
+
+.aboutbox{
+    width: 700px;
+    height: 30px;
+    margin-left: 100px;
+    background-color: #4B9CD3;
+    font-family: 'Indie Flower', cursive;
+    color: white;
+    font-size: 28px;
+    display: block;
+}
+
+#about{
+    margin: 0;
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+}
+
+.aboutMe{
+    width: 700px;
+    height: 400px;
+    background-color: black;
+    margin-left: 100px;
+    text-align: left;
+    display: inline-block;
+}
+
+p.resume{
+    color: black;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    text-align: left;
+}
+
+.resume{
+    padding-left: 100px;
+    text-align: center;
+    margin-right: auto;
+}
+
+p.projects{
+    color: black;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    text-align: left;
+}
+
+.projects{
+    padding-left: 100px;
+    text-align: center;
+    margin - right: auto;
+}
+
+p.involved{
+    color: black;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    text-align: left;
+}
+
+.involved{
+    padding-left: 100px;
+    text-align: center;
+    margin-right: auto;
+}
+
+p.jobdesc{
+    width: 800px;
+    padding-left: 100px;
+    text-align: center;
+    margin-right: auto;
+    color: black;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    text-align: left;
+}
+
+p.projdesc{
+   /** text-align: right;*/
+    width: 400px;
+    text-align: center;
+    /*margin-right: auto;*/
+    color: black;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    /*text-align: left;*/
+}
+
+.projectimg{
+        padding-top: 10px;        
+}
+
+.multprojectimg{
+    padding-top: 10px;
+    float: left;
+    display: none;
+}
+
+.rotate{
+    width: 800px;
+    padding-left: 100px;
+    text-align: center;
+    margin-right: auto;
+    color: black;
+    margin: 0;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+    line-height: 25px;
+    text-align: left;
+}
+
+#more{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.iconBar{
+    padding-left: 50px;
+    padding-bottom: 200px;
+}
+.snapchat{
+    padding-left: 100px;
+}
+.photopreview{
+    padding-top: 10px;
+    padding-left: 100px;
+}
+a:link, a:visited, a:hover, a:active{
+    text-decoration: none;
+    color: #4B9CD3;
+}
+h2.title{
+    font-size: 30px;
+    text-align: left;
+    padding-left: 
+}
+.myFace{
+    text-align: center;
+    width: 400px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 500px;
+}
