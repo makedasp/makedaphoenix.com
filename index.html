@@ -62,7 +62,7 @@
                     <p class="resume">
                         <strong>University of North Carolina at Chapel Hill:</strong>&emsp;&emsp;Expected Graduation Date: May 2021<br/>
                         <strong>Bachelor of Arts in Computer Science</strong><br/>
-                       
+                        University of North Carolina at Charlotte: Fall 2015 - Spring 2017<br/>
                     </p>
                 <h3 style="text-align:left">Relevant Coursework</h3>
                     <p class="resume">
@@ -132,8 +132,22 @@
                });
            });
 
-            
-            
+            var index = 0;
+            cycle();
+
+            function cycle(){
+                var i;
+                var x = document.getElementsByClassName("multprojectimg");
+                for(i = 0; i < x.length; i++){
+                    x[i].style.display = "none";
+                }
+                index++;
+                if(index > x.length){
+                    index = 1;
+                }
+                x[index - 1].style.display = "block";
+                setTimeout(cycle, 2000);
+            }
         </script>
     </body>
 </html>
