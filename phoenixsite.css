@@ -223,10 +223,11 @@ p.projdesc{
 
 .multprojectimg{
     padding-top: 10px;
-    float: left;
-    display: none;
 }
 
+.multprojectimg2{
+    padding-top: 10px;
+}
 .rotate{
     width: 800px;
     padding-left: 100px;
